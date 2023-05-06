@@ -1,0 +1,466 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+    background-color: rgba(23, 22, 22, 1);
+    
+}
+
+.nav-list {
+    width: 450px;
+    /* background-color: black; */
+    display: flex;
+    align-items: right;
+    margin-right: -10%;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+    font-size: 20px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+    transition: font-size 0.5s;
+}
+
+.nav-list li a:hover {
+    color: rgb(32, 7, 157);
+    font-size: 25px;
+}
+
+.leftNav {
+    padding: 0 23px;
+    width: 50%;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+}
+
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('../img/techbg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.FirstSection {
+    height: 100vh;
+}
+
+.box-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 50%;
+    margin: auto;
+    height: 70%;
+}
+
+.fhalf {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.shalf {
+    width: 30%;
+    margin: 30px;
+}
+
+.shalf img {
+    width: 140%;
+    border: 2px solid white;
+    display: block;
+    margin: auto;
+}
+
+.text-big {
+    font-size: 40px;
+}
+
+.text-small {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.btn {
+    padding: 8px 15px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-sm {
+    padding: 3px 10px;
+    vertical-align: 6px 10px;
+}
+
+.btn-dark {
+    color: black;
+    border: 2px solid black;
+}
+
+.section {
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 85%;
+    margin: auto;
+}
+
+.Left {
+    flex-direction: row-reverse;
+}
+
+.paras {
+    padding: 0 20px;
+}
+
+.section img {
+    width: 260px;
+    margin: 2px 2px;
+    transition: width 0.25s, height 0.25s;
+}
+
+.section img:hover {
+    width: 270px;
+}
+
+.sectionTag {
+    padding: 16px 0;
+}
+
+.form {
+    max-width: 344px;
+    margin-left: 10%;
+}
+
+.form input {
+    margin-bottom: -1px;
+    margin-top: 6px;
+    width: 100%;
+    font-size: 19px;
+    border: 3px solid rgb(28, 28, 29);
+    border-radius: 5px;
+
+}
+
+.text-footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgba(23, 22, 22, 1);
+    position:relative;
+    top:250px;
+  
+  
+
+}
+
+.social img {
+    width: 50px;
+    border: 1px solid white;
+    border-radius: 117px;
+}
+
+.social {
+    background-color: rgb(28, 13, 60);
+    width: 30%;
+    height: 25%;
+    padding: 20px 20px;
+    margin: 10px 20px;
+    color: white;
+}
+
+
+
+.emailS {
+    position: relative;
+    bottom:30px;
+   left:50px;
+    width:700px;
+    z-index:-1;
+    box-shadow: -1px 1px 18px white;
+    transition: width 2s,height 2s;
+}
+
+
+.phoneS {
+    position: relative;
+    top: 380px;
+    right:180px;
+    width:700px;
+    box-shadow: -1px 1px 18px white;
+    transition: width 2s,height 2s;
+    z-index:-1;
+}
+
+
+.instaS {
+    position: relative;
+    top: 180px;
+    right:100px;
+   box-shadow: -1px 1px 18px white;
+   width:800px;
+   z-index:-1;
+}
+
+
+
+.media {
+    position: relative;
+    top: 40px;
+    left: 100px;
+    width:950px;
+
+}
+
+.contactUs {
+    position: relative;
+    height: 70%;
+
+}
+
+.background-c {
+    background: rgba(0, 0, 0, 0.8) url('../img/bgpretty.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.formbg {
+    background-image: url('../img/form66.jpg');
+    background-size: cover;
+}
+
+.section3 {
+    display: flex;
+}
+
+.text-big1 {
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.text-small1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-left: 25px;
+}
+
+.text-big2 {
+    font-size: 40px;
+    margin-left: 48px;
+}
+
+.text-small2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 23px;
+    text-align: justify;
+    margin-right: -8px;
+
+}
+
+.bgweb {
+    background-image: url('../img/techbg3.webp');
+    background-size: cover;
+    text-align: justify;
+    /* height: 40%; */
+}
+
+.bgraphic {
+    background-image: url('../img/qtechbg2.jpg');
+    background-size: cover;
+    text-align: justify;
+    height: 40%;
+}
+
+.bgdigital {
+    background-image: url('../img/techbg4.jpg');
+    background-size: cover;
+    text-align: justify;
+}
+
+.bgweb p {
+    margin-right: 15%;
+    font-size: 25px;
+
+}
+
+.bgraphic p {
+    margin-left: 5%;
+    margin-right: 0;
+    font-size: 25px;
+
+}
+
+.bgdigital p {
+    margin-right: 20%;
+    font-size: 25px;
+
+}
+
+.text-big3 {
+    font-size: 40px;
+    margin-left: 98px;
+}
+
+.text-small3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+    margin-left: 54px;
+    margin-right: -60px;
+}
+
+.contacthead {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.Sbackgroung {
+    background-color: black;
+    color: white;
+}
+
+.contact {
+    display: flex;
+}
+
+.secimg {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.text h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 21px;
+    margin-top: 40px;
+    font-size: 35px;
+}
+
+.text p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0% 15%;
+    margin-bottom: 30px;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.section video {
+    width: 258px;
+    margin: 2px 2px;
+}
+
+.section1 {
+    width: 30%;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.section1 img {
+    width: 90%;
+    padding: 10px 10px;
+    margin-left: 13px;
+
+}
+
+.section2 img {
+    width: 95%;
+    padding: 10px 10px;
+    height: 42%;
+    margin-left: 17px;
+}
+
+.section2 {
+    width: 30%;
+    padding: 10px 10px;
+    font-size: 15px
+}
+
+.section3 {
+    display: flex;
+}
+
+.section33 {
+    width: 30%;
+    padding: 10px 10px;
+}
+
+.section33 img {
+    width: 99%;
+    padding: 10px 10px;
+    height: 50%;
+    margin-left: 42px;
+}
+
+.aboutme {
+    background-color: rgb(29, 29, 29);
+}
+
+.aboutPic img {
+    width: 350px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+    border: 2px solid black;
+    box-shadow: 0 20px 25px rgba(0, 0, 0, 0.5);
+}
+
+.fSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    display:inline-block;
+    position: relative;
+    top: 250px;
+    left:100px;
+    width:1100px;
+    font-size:30px;
+    font-family:Century Gothic;
+    z-index:-1;
+}
+
+#services{
+    position:relative;
+    top:500px;
+}
+
+#about{
+    position:relative;
+    bottom:900px;   
+}
